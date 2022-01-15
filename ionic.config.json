@@ -1,0 +1,7 @@
+{
+  "name": "jaan-panel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
