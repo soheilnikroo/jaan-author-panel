@@ -1,0 +1,24 @@
+.welcom {
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.welcome__background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.welcome__logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}

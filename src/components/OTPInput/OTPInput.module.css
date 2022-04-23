@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  margin-top: 1rem;
+}
+
+.otp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+.otp-header {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.otp-icon {
+  color: #2fa3ec;
+  font-size: 1.3rem;
+}
+
+.otp-header__title-text {
+  margin-right: 0.5rem;
+  font-family: iranyekan;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #c4c4c4;
+}
+
+.otp-input {
+  width: 7%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #fff;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  direction: rtl;
+  font-family: iranyekanMsn;
+  color: #fff;
+}
+
+.otp-input:focus {
+  outline: none;
+  border-color: #2fa3ec;
+  color: #2fa3ec;
+}
+
+.otp-input-error {
+  width: 7%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #eb4e69;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  direction: rtl;
+  font-family: iranyekanMsn;
+  color: #eb4e69;
+}
+
+.otp-input-error:focus {
+  outline: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .otp-input,
+  .otp-input-error {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .otp-input,
+  .otp-input-error {
+    width: 50%;
+  }
+}

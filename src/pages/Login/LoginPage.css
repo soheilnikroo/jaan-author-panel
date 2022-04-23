@@ -1,0 +1,63 @@
+.login {
+  direction: rtl;
+}
+
+.login__content {
+  margin-top: 1rem;
+  height: 50%;
+}
+
+.login__content-text {
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+}
+
+.login__title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: iranyekan;
+  text-align: right;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 1rem;
+}
+
+.login__description {
+  font-size: 1rem;
+  font-family: iranyekan;
+  color: #fff;
+  margin-top: 0.5rem;
+  font-weight: 300;
+  padding-left: 1rem;
+}
+
+.login__form {
+  height: 85%;
+}
+
+.login__inputs {
+  margin-right: 1rem;
+  height: 70%;
+}
+
+.error-text {
+  font-family: iranyekanMsn;
+  color: #eb4e69;
+}
+
+.login-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.login__button {
+  width: 90%;
+  font-size: 1.2rem;
+  height: 40px;
+  font-family: iranyekan;
+  text-align: center;
+}

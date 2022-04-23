@@ -1,0 +1,32 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 32px;
+  margin-top: 32px;
+  font-family: iranyekanMsn;
+  font-size: 1.2rem;
+}
+
+.header-icon {
+  margin-left: 10px;
+  color: #37a4e9;
+  font-size: 2rem;
+}
+
+.header-text {
+  color: #fff;
+  font-family: iranyekanMsn;
+}
+
+.static-container {
+  margin-right: 32px;
+
+  margin-top: 1rem;
+}

@@ -1,0 +1,42 @@
+.phone {
+  width: 90%;
+  margin-top: 1.5rem;
+}
+
+.phone-error {
+  width: 90%;
+  margin-top: 1.5rem;
+}
+
+.phone-header {
+  margin-bottom: 0.8rem;
+}
+
+.phone-header__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-header__title-text {
+  margin-right: 0.5rem;
+  font-family: iranyekan;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.phone-input__field {
+  border: 2px #fff solid;
+  border-radius: 15px;
+  height: 55px;
+  padding-right: 1rem;
+  font-family: iranyekanMsn;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.phone-error .phone-input__field {
+  color: #ef5168;
+  border-color: #ef5168;
+}

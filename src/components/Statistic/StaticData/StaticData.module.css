@@ -1,0 +1,60 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: iranyekanMsn;
+  background-color: #2d425d;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-icon {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #7c73e0;
+}
+
+.header-text {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: iranyekanMsn;
+}
+
+.static {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.static-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.static-client-text {
+  color: #fff;
+  font-family: iranyekanMsn;
+}
+
+.static-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #7c73e0;
+  font-family: iranyekanMsn;
+}
